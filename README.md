@@ -1,9 +1,10 @@
 # Event Management API
 
-A feature-rich Event Management API built with FastAPI.
+A feature-rich Event Management API built with FastAPI, now with a responsive frontend interface.
 
 ## Features
 
+- **Frontend Interface**: A beautiful, responsive web UI for interacting with the API, built with HTML, CSS, and JavaScript.
 - **Authentication**: JWT-based sign-up and login.
 - **Role-Based Access**: Regular users can register for events; admins can create events and manage registrations.
 - **Event Management**: Create and list events.
@@ -25,11 +26,12 @@ A feature-rich Event Management API built with FastAPI.
 
 2. Run the server:
    ```bash
-   uvicorn main:app --reload
+   uvicorn app.main:app --reload
    ```
 
-3. Visit the API documentation (Swagger UI):
-   `http://127.0.0.1:8000/docs`
+3. Visit the Application:
+   - **Frontend UI**: `http://127.0.0.1:8000/`
+   - **API documentation (Swagger UI)**: `http://127.0.0.1:8000/docs`
 
 ## Running Tests
 Run `pytest` in the root directory.
